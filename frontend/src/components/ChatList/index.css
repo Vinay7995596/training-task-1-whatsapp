@@ -1,0 +1,39 @@
+.images-of-home-page {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.list-of-elements{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    border: 0px;
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.chat-list-main-bg-container {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.chat-list-main-bg-container > ul {
+    padding: 0px;
+}
+
+.user-name-caht-list {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-of-user-in-chatList {
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+}

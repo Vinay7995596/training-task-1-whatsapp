@@ -1,0 +1,70 @@
+.chat-history-component-main-bg-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.chat-history-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid green;
+}
+
+.profile-picture-chat-history {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.inputs-text-chat-history {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inputs-text-chat-history > input {
+    width: 90%;
+}
+
+.inputs-text-chat-history > button {
+    width: 10%;
+}
+
+.chat-history-middle{
+    height: 75vh;
+    overflow-y: scroll;
+    background-size: cover;
+}
+
+.input-field-chat-history {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    outline: none;
+}
+
+.send-button-chat-history {
+    background-color:#36A9AE;
+    border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  height: 50px;
+  cursor: pointer;
+}
+
+.chat-displayed-in-chatbox {
+    text-align: right;
+    color: #2A8387;
+}
+
+.chat-displayed-in-chatbox-right {
+    text-align: left;
+    color: #4636ae;
+}

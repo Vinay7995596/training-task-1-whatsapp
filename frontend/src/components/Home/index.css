@@ -1,0 +1,12 @@
+.total-main-chat-friend-list {
+    display: flex;
+    width: 100%;
+}
+
+.chat-history-container-place {
+    width: 100%;
+}
+
+.chat-list-friend-place {
+    width: 30%;
+}

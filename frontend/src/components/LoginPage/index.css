@@ -1,0 +1,63 @@
+.main-bf-container-login {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.main-bg-login-page {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-box-container {
+    border-radius: 10px;
+    background-color: red;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.email-box-container > input {
+    background-color: transparent;
+    padding-left: 10px;
+    border: 0px;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    width: 300px;
+}
+
+.buttons-submited {
+    border: 0px;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    background-color: #F082AC;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+}
+
+.button-sign-up {
+    margin-top: 10px;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+}
